@@ -2,7 +2,7 @@ package Problem_Solving_Java.Level1;
 
 import java.util.Scanner;
 
-//시간 : 2021-10-21 15:00 ~ 18:00
+//시간 : 2021-10-21 18:47 ~ 18:51
 
 //문제 : (세 자리 수) × (세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.
 /*     
@@ -32,7 +32,10 @@ public class level11_2588 {
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
-		System.out.println();
+		System.out.println(a*((b%100)%10));
+		System.out.println(a*((b%100)/10));
+		System.out.println(a*(b/100));
+		System.out.println(a*b);
 		
 		
 		sc.close();
