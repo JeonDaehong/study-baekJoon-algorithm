@@ -1,5 +1,6 @@
 package Problem_Solving_Java.level3;
 
+
 //시간 : 2021-10-22 10:35 ~ 10:
 
 /*
@@ -21,7 +22,7 @@ public class level_04_15552 {
 
 	public static void main(String[] args) {
 		
-		
+
 
 	}
 
